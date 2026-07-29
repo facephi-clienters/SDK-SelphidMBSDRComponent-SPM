@@ -15,8 +15,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/facephi-clienters/selphidmbsdr-framework-SPM.git", .upToNextMinor(from: "1.39.3")),
-        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.9.0")),
+        .package(url: "https://github.com/facephi-clienters/selphidmbsdr-framework-SPM.git", .upToNextMinor(from: "1.40.0")),
+        .package(url: "https://github.com/facephi-clienters/SDK-CorePackage-SPM.git", .exactItem("2.10.0")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -30,7 +30,7 @@ let package = Package(
             ],
             resources: [.process("Resources")]),
         .binaryTarget(name: "selphidComponent",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphIDMBSDRComponent/2.9.0/selphidComponent.zip",
-        checksum: "88544e07f919a29d4e923a4e9845d9b33f5f9f434bef6df1b79c00502b30b0a0")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphIDMBSDRComponent/2.10.0/selphidComponent.zip",
+        checksum: "ade91e0051ecc2265460c02efe775282470070a12d7dc9e922ace8582857f5b1")
     ]
 )
