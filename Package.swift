@@ -31,6 +31,6 @@ let package = Package(
             resources: [.process("Resources")]),
         .binaryTarget(name: "selphidComponent",
         url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/SDK/FPHISDKSelphIDMBSDRComponent/2.10.0/selphidComponent.zip",
-        checksum: "ade91e0051ecc2265460c02efe775282470070a12d7dc9e922ace8582857f5b1")
+        checksum: "65eecc34dc79641c00a66deb65696e8beff1cb715fe5ba57ebef194ad35d83f8")
     ]
 )
